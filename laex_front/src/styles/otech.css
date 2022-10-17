@@ -45,9 +45,34 @@
     flex-grow: 0;
 }
 
-.angle__down {
-    padding: 1em;
+.right__bar {
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
+
+.angle__down {
+    margin-right: 1em;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+    flex: none;
+}
+
+.buttons__right__bar {
+    margin-right: 1em;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+    flex: none;
+}
+
+.avatar__circle {
+    
+    width: 32px; 
+    height: 32px;
+    border-radius: 50%;
+    background-image: url('../assets/img/avatar.jpg');
+    background-size: contain;
+}
+
