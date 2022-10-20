@@ -68,8 +68,8 @@
 }
 
 .avatar__circle {
-    
-    width: 32px; 
+
+    width: 32px;
     height: 32px;
     border-radius: 50%;
     background-image: url('../assets/img/avatar.jpg');
@@ -140,33 +140,314 @@
     flex-grow: 0;
 }
 
-.order__container__pic {
-    margin-top: 16px;
-    box-sizing: border-box;
+.container {
+    /* border: #000000 1px solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-/* Auto layout */
+.right__container {
+    margin-top: 16px;
 
     display: flex;
     flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    background: #fff2e1;
+
+    /* margin-left: 31px; */
+    margin-left: 8em;
     align-items: flex-start;
-    padding: 20px;
-    gap: 24px;
-
-    width: 954px;
-    height: 510px;
-
-    /* Background/White */
+    height: 305px;
 
     background: #FFFFFF;
-    /* Other/Divider */
-
     border: 1px solid #E4E4E4;
     border-radius: 8px;
+}
+
+.card__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    padding-left: 5%;
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    letter-spacing: 0.25px;
+    color: #0E1412;
+    margin: 0;
+}
+
+.card__button__a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #D32F2F;
+}
+
+.card__subs__p {
+    padding-left: 11px;
+    display: inline;
+}
+
+.card__subs {
+    width: 90%;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* padding-left: 20px; */
+    margin-left: 5%;
+    padding-top: 6px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #0E1412;
+}
+
+.card__status__container {
+    /* padding-left: 20px; */
+    margin-left: 5%;
+    padding-top: 6px;
+    width: 90%;
+}
+
+.vsc__error {
+    text-decoration: none;
+    color: #D32F2F;
+}
+
+.card__button__chat {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    width: 90%;
+    height: 32px;
+
+
+    background-color: #01963A;
+    color: white;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card__button__a__chat {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: white;
+}
+
+.card__button__a__deal {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: white;
+}
+
+.card__button__deal {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    width: 90%;
+    height: 32px;
+
+
+    background-color: #01963A;
+    color: white;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.chat {
+    text-decoration: none;
+    color: white;
+}
+
+.deal {
+    text-decoration: none;
+    color: white;
+}
+
+.card__button__a__fav {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #01963A;
+}
+
+.heart {
+    text-decoration: none;
+    color: #01963A;
+}
+
+.card__button__fav {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    /* width: 372px; */
+    width: 90%;
+    height: 32px;
+
+    /* Error/Main */
+
+    border: 1px solid #01963A;
+    border-radius: 100px;
+
+
 
     /* Inside auto layout */
 
     flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card__button__report {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    /* width: 372px; */
+    width: 90%;
+    height: 32px;
+
+    /* Error/Main */
+
+    border: 1px solid #D32F2F;
+    border-radius: 100px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card__status {
+    margin-left: 16px;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 6px;
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    width: 75px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* Support / Success */
+
+    background: #43A047;
+    border-radius: 24px;
+    color: white;
+    /* Inside auto layout */
+    font-family: 'Roboto';
+    font-style: normal;
+    flex: none;
     order: 1;
+    flex-grow: 0;
+}
+
+.card__status_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: inline;
+    letter-spacing: 0.25px;
+
+    /* Text/Primary */
+
+    color: #0E1412;
+}
+
+.order__container__pic {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    padding: 20px;
+    /* width: 954px; */
+    width: 65%;
+    /* height: 510px; */
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
     align-self: stretch;
     flex-grow: 0;
 }
