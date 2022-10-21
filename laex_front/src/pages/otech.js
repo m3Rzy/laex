@@ -50,15 +50,66 @@ function Otech() {
         <h1 className="title__page">Комбайн John Deere 9660STS (ID000009)</h1>
         {/* Нужен контейнер большой для 2ух */}
         <div className="container">
-          <div className="order__container__pic">
-            {/* <div className="picture" /> */}
-            <div className="left__right">
-              <div className="angle__left__page">
-                <FaAngleLeft />
+          <div className="column__left">
+            <div className="order__container__pic">
+              {/* <div className="picture" /> */}
+              <div className="left__right">
+                <div className="angle__left__page">
+                  <FaAngleLeft />
+                </div>
+                <div className="angle__right__page">
+                  <FaAngleRight />
+                </div>
               </div>
-              <div className="angle__right__page">
-                <FaAngleRight />
+            </div>
+            <div className="info__card">
+              <h1 className="title__page__card">Информация о технике</h1>
+              <div className="first__type__card">
+                <div className="double__columns__card">
+                  <div className="first__about">
+                    <p className="title__card__p">Тип работ</p>
+                    <p className="about__card">Землеройные работы</p>
+                    <p className="title__card__p">Модель</p>
+                    <p className="about__card">Гусеничный трактор Т-402-01</p>
+                    <p className="title__card__p">Мощность (л.с)</p>
+                    <p className="about__card">130</p>
+                    <p className="title__card__p">Производитель</p>
+                    <p className="about__card">ОАО «Алтайский тракторный завод»</p>
+                  </div>
+                  <div className="second__about">
+                    <p className="title__card__p">Собcтвенник</p>
+                    <p className="about__card">Нет</p>
+                    <p className="title__card__p">Тип техники</p>
+                    <p className="about__card">Трактор</p>
+                    <p className="title__card__p">Год выпуска</p>
+                    <p className="about__card">2019</p>
+                  </div>
+                </div>
               </div>
+              <div className="first__type__card">
+                <div className="double__columns__card">
+                  <div className="first__about">
+                    <p className="title__card__p">Дополнительное оборудование</p>
+                    <p className="about__card">Нет</p>
+                    </div>
+                </div>
+              </div>
+              <div className="first__type__card">
+                <div className="double__columns__card">
+                  <div className="first__about">
+                    <p className="title__card__p">Описание техники</p>
+                    <p className="about__card">Гусеничный трактор общего назначения</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div className="info__card__calendar">
+              <h1 className="title__page__card">Календарь загруженности техники</h1>
+              календарь . пакет
+              <a className="card__button__chat__about" href="#">
+              <FaTelegramPlane className="deal" size={19} />
+                <a href="#" className="card__button__a__chat">Предложить сделку</a>
+              </a>
             </div>
           </div>
           <div className="right__container">
@@ -93,23 +144,8 @@ function Otech() {
                 <a href="#" className="card__button__a__deal">Предложить сделку</a>
               </a>
             </div>
-            
             <div className="list__tech__container">
               <h1 className="">Другая техника</h1>
-              {/* <div className="custom__tech">
-                <div className="left__custom__tech">
-                  <div className="custom__photo__tech"></div>
-                </div>
-                <div className="right__custom__tech">
-                  <div className="custom__tech__about">
-                    <h2 className="otstup">John Deere 9660STS</h2>
-                    <p className="otstup">(000009)</p>
-                  </div>
-                  <p>Василий Пупкин</p>
-                  <p className="v__otstup">ЗАО АФ "Рыльская"</p>
-                  <div className="card__status__tech">Свободна</div>
-                </div>
-              </div> */}
               <Card />
               <Card />
               <Card />
@@ -118,11 +154,10 @@ function Otech() {
               <Card />
             </div>
           </div>
-
         </div>
       </div>
     </div>
   );
 }
 
-export {Otech};
+export { Otech };
