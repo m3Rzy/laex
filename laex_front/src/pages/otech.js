@@ -8,6 +8,8 @@ import { VscError } from "react-icons/vsc"
 import { AiOutlineHeart } from "react-icons/ai"
 import { BsChatDots } from "react-icons/bs"
 import { FaTelegramPlane } from "react-icons/fa"
+import { Card } from '../components/card.js';
+
 
 function Otech() {
   return (
@@ -60,41 +62,67 @@ function Otech() {
             </div>
           </div>
           <div className="right__container">
-            <h1 className="card__title">Александр Александров</h1>
-            <div className="card__subs">
-              <AiOutlineCalendar />
-              <p className="card__subs__p">На сайте с 11.11.2021</p>
+            <div className="card__container">
+              <h1 className="card__title">Александр Александров</h1>
+              <div className="card__subs">
+                <AiOutlineCalendar />
+                <p className="card__subs__p">На сайте с 11.11.2021</p>
+              </div>
+              <div className="card__status__container">
+                <p className="card__status_p">Статус</p>
+                <div className="card__status">Свободна</div>
+              </div>
+              <div className="card__status__container">
+                <p className="card__status_p">Верификация</p>
+                <div className="card__status">Верифицирован</div>
+              </div>
+              <a className="card__button__report" href="#">
+                <VscError className="vsc__error" size={19} />
+                <a href="#" className="card__button__a">Пожаловаться</a>
+              </a>
+              <a className="card__button__fav" href="#">
+                <AiOutlineHeart className="heart" size={19} />
+                <a href="#" className="card__button__a__fav">Добавить в избранное</a>
+              </a>
+              <a className="card__button__chat" href="#">
+                <BsChatDots className="chat" size={19} />
+                <a href="#" className="card__button__a__chat">Начать чат</a>
+              </a>
+              <a className="card__button__deal" href="#">
+                <FaTelegramPlane className="deal" size={19} />
+                <a href="#" className="card__button__a__deal">Предложить сделку</a>
+              </a>
             </div>
-            <div className="card__status__container">
-              <p className="card__status_p">Статус</p>
-              <div className="card__status">Свободна</div>
+            
+            <div className="list__tech__container">
+              <h1 className="">Другая техника</h1>
+              {/* <div className="custom__tech">
+                <div className="left__custom__tech">
+                  <div className="custom__photo__tech"></div>
+                </div>
+                <div className="right__custom__tech">
+                  <div className="custom__tech__about">
+                    <h2 className="otstup">John Deere 9660STS</h2>
+                    <p className="otstup">(000009)</p>
+                  </div>
+                  <p>Василий Пупкин</p>
+                  <p className="v__otstup">ЗАО АФ "Рыльская"</p>
+                  <div className="card__status__tech">Свободна</div>
+                </div>
+              </div> */}
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
             </div>
-            <div className="card__status__container">
-              <p className="card__status_p">Верификация</p>
-              <div className="card__status">Верифицирован</div>
-            </div>
-            <a className="card__button__report" href="#">
-              <VscError className="vsc__error" size={19} />
-              <a href="#" className="card__button__a">Пожаловаться</a>
-            </a>
-            <a className="card__button__fav" href="#">
-              <AiOutlineHeart className="heart" size={19} />
-              <a href="#" className="card__button__a__fav">Добавить в избранное</a>
-            </a>
-            <a className="card__button__chat" href="#">
-              <BsChatDots className="chat" size={19} />
-              <a href="#" className="card__button__a__chat">Начать чат</a>
-            </a>
-            <a className="card__button__deal" href="#">
-              <FaTelegramPlane className="deal" size={19} />
-              <a href="#" className="card__button__a__deal">Предложить сделку</a>
-            </a>
           </div>
-          <div className="card__container"></div>
+
         </div>
       </div>
     </div>
   );
 }
 
-export { Otech };
+export {Otech};
