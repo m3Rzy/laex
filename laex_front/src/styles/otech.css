@@ -741,9 +741,78 @@ h2 {
     background: #fff2e1;
     flex-grow: 2.5;
     display: flex;
-    height: 500px;
+    height: 200px;
     flex-direction: column;
     background: #FFFFFF;
     border: 1px solid #E4E4E4;
     border-radius: 8px;
+}
+
+.info__card__doc {
+    margin-top: 16px;
+    background: #fff2e1;
+    flex-grow: 2.5;
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
+
+.title__card__doc {
+    padding: 24px 0px 0px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 0.1px;
+
+    /* Text/Primary */
+
+    color: #0E1412;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* .first__about__doc {
+    padding: 15px 5px 15px 0px;
+    width: 200px;
+}
+
+.second__about__doc {
+    padding: 15px 16px 15px 0px;
+    width: 200px;
+
+}
+
+.third__about__doc {
+    padding: 15px 16px 15px 0px;
+    width: 200px;
+
+} */
+
+.title__card__doc {
+    padding: 15px 16px 15px 15px;
+    width: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    letter-spacing: 0.1px;
+
+    /* Text/Primary */
+
+    color: #0E1412;
 }

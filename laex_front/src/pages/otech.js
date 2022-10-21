@@ -91,7 +91,7 @@ function Otech() {
                   <div className="first__about">
                     <p className="title__card__p">Дополнительное оборудование</p>
                     <p className="about__card">Нет</p>
-                    </div>
+                  </div>
                 </div>
               </div>
               <div className="first__type__card">
@@ -99,18 +99,50 @@ function Otech() {
                   <div className="first__about">
                     <p className="title__card__p">Описание техники</p>
                     <p className="about__card">Гусеничный трактор общего назначения</p>
-                    </div>
+                  </div>
                 </div>
               </div>
+
             </div>
+            {/* Календарь загруженности техники */}
             <div className="info__card__calendar">
               <h1 className="title__page__card">Календарь загруженности техники</h1>
-              календарь . пакет
               <a className="card__button__chat__about" href="#">
-              <FaTelegramPlane className="deal" size={19} />
+                <FaTelegramPlane className="deal" size={19} />
                 <a href="#" className="card__button__a__chat">Предложить сделку</a>
               </a>
             </div>
+            {/* Документы по технике */}
+            <div className="info__card__doc">
+              <h1 className="title__page__card">Документы по технике</h1>
+              <div className="first__type__card">
+                <div className="double__columns__card">
+                  <div className="first__about__doc">
+                    <p className="title__card__doc">Название</p>
+                  </div>
+                  <div className="second__about__doc">
+                    <p className="title__card__doc">Файл</p>
+                  </div>
+                  <div className="third__about__doc">
+                    <p className="title__card__doc">Дата загрузки</p>
+                  </div>
+                </div>
+              </div>
+              <div className="first__type__card">
+                <div className="double__columns__card">
+                  <div className="first__about__doc">
+                    <p className="title__card__doc">Документ</p>
+                  </div>
+                  <div className="second__about__doc">
+                    <p className="title__card__doc">document.word</p>
+                  </div>
+                  <div className="third__about__doc">
+                    <p className="title__card__doc">20.09.2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*  */}
           </div>
           <div className="right__container">
             <div className="card__container">
