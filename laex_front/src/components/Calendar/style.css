@@ -1,0 +1,52 @@
+.calendar {
+    margin-top: 16px;
+    background: #fff2e1;
+    flex-grow: 2.5;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
+
+.calendar__button__logo {
+    text-decoration: none;
+    color: white;
+}
+
+.calendar__button__title {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: white;
+}
+
+
+.calendar__button {
+    margin-left: 20px;
+
+    text-decoration: none;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 16px;
+    gap: 8px;
+    width: 15%;
+    height: 32px;
+
+    background-color: #01963A;
+    color: white;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}

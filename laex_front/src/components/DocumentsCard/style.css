@@ -1,0 +1,82 @@
+
+.documentsCard {
+    margin-top: 16px;
+    background: #fff2e1;
+    flex-grow: 2.5;
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
+
+.documentsCard__title {
+    padding: 24px 0px 0px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #0E1412;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.documentsCard__container {
+    margin: 20px;
+    flex-grow: 0;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
+
+.documentsCard__container__row {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+}
+
+.documentsCard__container__row__column1 {
+    padding: 15px 5px 15px 0px;
+    width: 200px;
+}
+
+.documentsCard__container__row__column2 {
+    padding: 15px 16px 15px 0px;
+    width: 200px;
+}
+
+.documentsCard__container__row__column3 {
+    padding: 15px 16px 15px 0px;
+    width: 200px;
+}
+
+.documentsCard__container__row__column__title {
+    padding: 15px 16px 15px 15px;
+    width: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #0E1412;
+}
+
+.documentsCard__container__row__column__title {
+    padding: 24px 0px 0px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #0E1412;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

@@ -1,0 +1,254 @@
+.userCard {
+    background: #fff2e1;
+    /* flex-grow: 5; */
+
+    /* margin-left: 31px; */
+    margin-left: 2em;
+    /* align-items: flex-start; */
+    height: 288px;
+
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+}
+
+.userCard__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    padding-left: 5%;
+    /* padding-left: 20px; */
+    padding-top: 20px;
+    letter-spacing: 0.25px;
+    color: #0E1412;
+    margin: 0;
+}
+
+.userCard__actualDate {
+    width: 90%;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* padding-left: 20px; */
+    margin-left: 5%;
+    padding-top: 6px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #0E1412;
+}
+
+.userCard__actualDate__subtitle {
+    padding-left: 11px;
+    display: inline;
+}
+
+.userCard__status {
+    margin-left: 5%;
+    padding-top: 6px;
+    width: 90%;
+}
+
+.userCard__status__need {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline;
+    letter-spacing: 0.25px;
+    color: #0E1412;
+}
+
+
+.userCard__status__actual {
+    margin-left: 16px;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 6px;
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    width: 75px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* Support / Success */
+
+    background: #43A047;
+    border-radius: 24px;
+    color: white;
+    /* Inside auto layout */
+    font-family: 'Roboto';
+    font-style: normal;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.userCard__report {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    width: 90%;
+    height: 32px;
+    border: 1px solid #D32F2F;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.userCard__report__logo {
+    text-decoration: none;
+    color: #D32F2F;
+}
+
+
+.userCard__report__button {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #D32F2F;
+}
+
+
+.userCard__favourite {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    width: 90%;
+    height: 32px;
+    border: 1px solid #01963A;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.userCard__favourite__logo {
+    text-decoration: none;
+    color: #01963A;
+}
+
+
+.userCard__favourite__button {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #01963A;
+}
+
+.userCard__chat {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    width: 90%;
+    height: 32px;
+
+    background-color: #01963A;
+    color: white;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.userCard__chat__logo {
+    text-decoration: none;
+    color: white;
+}
+
+
+.userCard__chat__button {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: white;
+}
+
+.userCard__deal {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    gap: 8px;
+    margin-left: 5%;
+    width: 90%;
+    height: 32px;
+
+
+    background-color: #01963A;
+    color: white;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.userCard__deal__logo {
+    text-decoration: none;
+    color: white;
+}
+
+.userCard__deal__button {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: white;
+}
