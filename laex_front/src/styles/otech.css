@@ -1,128 +1,18 @@
-.top__menu__bar {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    align-items: center;
-    padding: 0px;
-
-    position: absolute;
-    width: 100%;
-    height: 3em;
-    /* height: 48px; */
-    left: 0px;
-    top: 0px;
-
-    background: #FFFFFF;
-
-    box-shadow: inset 0px -1px 0px #E0E0E0;
-}
-
-.logo__asm {
-    margin: 1em;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    color: #01963A;
-}
-
-.top__menu__item {
-    text-decoration: none;
-    padding: 1em;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-
-    letter-spacing: 0.25px;
-
-    color: #0E1412;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.right__bar {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.angle__down {
-    margin-right: 1em;
-    padding: 0.5em;
-    color: black;
-    text-decoration: none;
-    flex: none;
-}
-
-.buttons__right__bar {
-    margin-right: 1em;
-    padding: 0.5em;
-    color: black;
-    text-decoration: none;
-    flex: none;
-}
-
-.avatar__circle {
-
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-image: url('../assets/img/avatar.jpg');
-    background-size: contain;
-}
-
-.spaces {
+.main__padding {
     padding-top: 1em;
     padding-left: 28px;
     padding-right: 28px;
 }
 
-.pagination {
-    display: flex;
-    width: 50%;
-    height: 1em;
-}
 
-.hooks__pag {
-    /* margin-top: 3.5em; */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 14px;
-    letter-spacing: 0.25px;
-    font-weight: 400;
 
-    color: #0E1412;
-}
-
-.angle__right {
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.top {
+.main__otstup {
     display: block;
     width: 100%;
     margin-top: 3.5em;
 }
 
-.hooks__pag__custom {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 14px;
-    letter-spacing: 0.25px;
-    font-weight: 400;
 
-    color: #01963A;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
 
 h1 {
     font-family: 'Roboto';
@@ -142,7 +32,7 @@ h2 {
     line-height: 18px;
 }
 
-.title__page {
+.main__padding__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -158,7 +48,7 @@ h2 {
     flex-grow: 0;
 }
 
-.column__left {
+.main__padding__row__columnLeft {
     margin-top: 16px;
     /* display: flex; */
     flex-direction: row;
@@ -174,7 +64,7 @@ h2 {
     align-self: stretch;
 }
 
-.container {
+.main__padding__row {
     /* border: #000000 1px solid; */
     display: flex;
     flex-flow: colunm;
@@ -527,113 +417,6 @@ h2 {
     height: 360px;
     background-image: url('../assets/img/test.png');
     background-size: contain;
-}
-
-.custom__tech p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0;
-}
-
-.custom__tech {
-    margin-bottom: 8px;
-    box-sizing: border-box;
-    flex-flow: row nowrap;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    gap: 16px;
-
-    height: 116px;
-
-
-    background: #FFFFFF;
-
-    border: 1px solid #E4E4E4;
-    border-radius: 8px;
-
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0;
-}
-
-.left__custom__tech {
-    flex-grow: 2;
-}
-
-.right__custom__tech {
-    flex-grow: 50;
-}
-
-.custom__photo__tech {
-    width: 96px;
-    height: 96px;
-    border-radius: 8px;
-    background-image: url('../assets/img/test.png');
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
-
-.custom__tech__about {
-    width: 100%;
-    display: flex;
-    margin: 0;
-    /* height: 94px; */
-}
-
-.otstup {
-    margin-right: 8px;
-    /* margin-top: 8px; */
-    margin-bottom: 8px;
-
-
-}
-
-.v__otstup {
-
-    margin-bottom: 8px;
-}
-
-
-.card__status__tech {
-
-    align-items: center;
-    padding: 4px 8px;
-    gap: 6px;
-    display: inline;
-    flex-direction: row;
-    justify-content: center;
-    width: 75px;
-    height: 24px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    /* Support / Success */
-
-    background: #43A047;
-    border-radius: 24px;
-    color: white;
-    /* Inside auto layout */
-    font-family: 'Roboto';
-    font-style: normal;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .info__card {

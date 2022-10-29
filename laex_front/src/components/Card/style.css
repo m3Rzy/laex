@@ -1,0 +1,99 @@
+.card p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.card {
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 16px;
+
+    height: 116px;
+
+
+    background: #FFFFFF;
+
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.card__columnLeft {
+    flex-grow: 2;
+}
+
+.card__columnRight {
+    flex-grow: 50;
+}
+
+.card__columnLeft__photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 8px;
+    background-image: url('../../assets/img/test.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.card__columnRight__info {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.card__columnRight__info__title {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.card__columnRight__company {
+
+    margin-bottom: 8px;
+}
+
+
+.card__columnRight__status {
+    align-items: center;
+    padding: 4px 8px;
+    gap: 6px;
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    width: 75px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    background: #43A047;
+    border-radius: 24px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

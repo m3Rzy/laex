@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    width: 50%;
+    height: 1em;
+}
+
+.pagination__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+    color: #0E1412;
+}
+
+.pagination__angleright {
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.pagination__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+
+    color: #01963A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
